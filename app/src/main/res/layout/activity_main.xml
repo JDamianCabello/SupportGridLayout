@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:grid="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity"
+    grid:rowCount="2"
+    grid:orientation="vertical"
+    android:padding="5dp"
+    android:layout_gravity="center"
+    grid:useDefaultMargins="true">
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:text="Titulo 1"
+        grid:layout_columnWeight="0.7"
+        android:background="#FF22a5b2"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:text="Titulo 2"
+        grid:layout_columnWeight="0.7"
+        android:background="#FF22a5b2"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:text="Titulo 3"
+        grid:layout_columnWeight="0.3"
+        android:background="#FF22a5b2"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:text="Titulo 4"
+        grid:layout_columnWeight="0.3"
+        android:background="#FF22a5b2"/>
+
+</android.support.v7.widget.GridLayout>
